@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">My Cards And Dice</string>
+    <string name="title_activity_main">My Cards And Dice</string>
+    <string name="package_name">com.cyrillefebvre.mycardsdice</string>
+    <string name="custom_url_scheme">com.cyrillefebvre.mycardsdice</string>
+    <string name="server_client_id">299295266645-otcsvrd2ltne63c42g0sglbfa0lbjqkp.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">590449738487491</string>
+    <string name="fb_login_protocol_scheme">fb590449738487491</string>
+</resources>

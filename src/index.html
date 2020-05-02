@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Cards & Dice</title>
+  <meta name="Description" content="Welcome on the My Cards & Dice website !
+    Here you can create your own cards decks / dice set and play with them.">
+  <meta name="google-site-verification" content="NPi3Si8yUy9VqFs-_PS1vKEATTcCNw0_XeGfRjg72jg" />
+  <meta name="google-signin-client_id" content="299295266645-otcsvrd2ltne63c42g0sglbfa0lbjqkp.apps.googleusercontent.com">
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192x192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preload" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap" as="style" onload="this.rel='stylesheet'">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" as="style" onload="this.rel='stylesheet'">
+  <meta name="theme-color" content="#9c27b0">
+</head>
+<body class="mat-typography">
+  <app-root></app-root>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId: '590449738487491',
+        cookie: true, // enable cookies to allow the server to access the session
+        xfbml: true, // parse social plugins on this page
+        version: 'v2.8' // use graph api version 2.8
+      });
+    };
+
+    // Load the SDK asynchronously
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+</body>
+</html>

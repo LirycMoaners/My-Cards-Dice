@@ -1,0 +1,10 @@
+<button mat-icon-button [matMenuTriggerFor]="optionMenu" aria-label="Open option menu">
+  <mat-icon [class.isHoriz]="headerService.isLeftSide"></mat-icon>
+</button>
+
+<mat-menu #optionMenu="matMenu">
+  <ng-container>
+    <button>New game</button>
+    <button>Modify game</button>
+  </ng-container>
+</mat-menu>

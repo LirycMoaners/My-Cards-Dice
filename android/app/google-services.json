@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "814225685729",
+    "firebase_url": "https://my-cards-dice.firebaseio.com",
+    "project_id": "my-cards-dice",
+    "storage_bucket": "my-cards-dice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814225685729:android:d6166a7496742ea80bcba0",
+        "android_client_info": {
+          "package_name": "com.cyrillefebvre.mycardsdice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814225685729-ltcvr047lu0du1rj53efaqmfsavo37ep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj4aL61e-MKvIiLyers6NwRUiWBGRQQ5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814225685729-ltcvr047lu0du1rj53efaqmfsavo37ep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
