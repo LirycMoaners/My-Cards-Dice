@@ -1,4 +1,4 @@
 export class FirestoreElement {
-  id: string;
-  isSynced: boolean;
+  public id: string;
+  public isSynced: boolean;
 }

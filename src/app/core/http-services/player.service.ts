@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { AngularFireAuth } from '@angular/fire/auth';
 
-import { Player } from '../../shared/models/player.model';
+import { Player } from '../../shared/models/game/player.model';
 import { FirstoreService } from './firestore.service';
 
 /**

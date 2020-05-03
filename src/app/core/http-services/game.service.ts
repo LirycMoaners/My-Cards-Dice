@@ -4,7 +4,7 @@ import { AngularFirestore } from '@angular/fire/firestore';
 import { User } from 'firebase/app';
 import { ReplaySubject } from 'rxjs';
 
-import { Game } from '../../shared/models/game.model';
+import { Game } from '../../shared/models/game/game.model';
 import { FirstoreService } from './firestore.service';
 import { UserService } from './user.service';
 

@@ -4,7 +4,7 @@ import { AngularFireAuth } from '@angular/fire/auth';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { Observable } from 'rxjs';
 
-import { GameCategory } from '../../shared/models/game-category.model';
+import { GameCategory } from '../../shared/models/game-category/game-category.model';
 import { FirstoreService } from './firestore.service';
 import { UserService } from './user.service';
 
