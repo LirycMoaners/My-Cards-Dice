@@ -18,10 +18,11 @@ export class SidenavComponent {
    * Sidenav menu links with name and icon
    */
   public menuItems = [
-    { label: 'Home', link: '/game-list', icon: 'home' },
-    { label: 'New game', link: '/game-edition', icon: 'add_circle' },
-    { label: 'Help', link: '/help', icon: 'help' },
-    { label: 'About', link: '/about', icon: 'info' }
+    { label: 'Games', link: '/games', icon: 'home' },
+    { label: 'Game categories', link: '/game-categories', icon: 'add_circle' },
+    { label: 'Sets', link: '/sets', icon: 'add_circle' },
+    { label: 'Help', link: '/infos/help', icon: 'help' },
+    { label: 'About', link: '/infos/about', icon: 'info' }
   ];
 
   constructor(

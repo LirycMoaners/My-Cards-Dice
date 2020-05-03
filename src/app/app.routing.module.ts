@@ -4,19 +4,28 @@ import { NgModule } from '@angular/core';
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () => import('./modules/home/home.module').then(m => m.HomeModule)
+    redirectTo: 'games',
+    pathMatch: 'full'
   },
   {
-    path: 'current-game',
-    loadChildren: () => import('./modules/current-game/current-game.module').then(m => m.CurrentGameModule)
+    path: 'games',
+    loadChildren: () => import('./modules/game/game.module').then(m => m.GameModule)
   },
   {
-    path: 'game-edition',
-    loadChildren: () => import('./modules/game-edition/game-edition.module').then(m => m.GameEditionModule)
+    path: 'game-categories',
+    loadChildren: () => import('./modules/game-category/game-category.module').then(m => m.GameCategoryModule)
+  },
+  {
+    path: 'sets',
+    loadChildren: () => import('./modules/set/set.module').then(m => m.SetModule)
   },
   {
     path: 'account',
     loadChildren: () => import('./modules/account/account.module').then(m => m.AccountModule)
+  },
+  {
+    path: 'infos',
+    loadChildren: () => import('./modules/info/info.module').then(m => m.InfoModule)
   },
   {
     path: '**',
