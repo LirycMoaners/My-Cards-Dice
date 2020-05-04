@@ -1,4 +1,4 @@
-import { FirestoreElement } from './firestore-element.model';
+import { FirestoreElement } from '../firestore-element.model';
 import { User } from 'firebase/app';
 import { UUID } from 'angular2-uuid';
 

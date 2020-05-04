@@ -6,7 +6,7 @@ import { User, storage } from 'firebase/app';
 import { Observable, of, from, forkJoin } from 'rxjs';
 import { flatMap, catchError } from 'rxjs/operators';
 
-import { Player } from '../../shared/models/player.model';
+import { Player } from '../../shared/models/game/player.model';
 import { PlayerService } from './player.service';
 import { UUID } from 'angular2-uuid';
 import { ImageResizer } from 'src/app/shared/tools/image-resizer';
