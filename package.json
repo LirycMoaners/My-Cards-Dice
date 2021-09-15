@@ -32,7 +32,7 @@
     "@angular/router": "~9.1.4",
     "@angular/service-worker": "~9.1.4",
     "@capacitor/android": "^2.0.2",
-    "@capacitor/cli": "^2.0.2",
+    "@capacitor/cli": "^3.0.0",
     "@capacitor/core": "^2.0.2",
     "@codetrix-studio/capacitor-google-auth": "^2.1.1",
     "@rdlabo/capacitor-facebook-login": "^2.0.2",
@@ -42,7 +42,7 @@
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2",
-    "snyk": "^1.316.2"
+    "snyk": "^1.465.0"
   },
   "devDependencies": {
     "@angular-devkit/architect": "~0.901.4",
